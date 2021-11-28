@@ -5,17 +5,14 @@ body{
 .red{
     color: red;
 }
-.box {  
-    position: relative;
-}
+
 
 .box p {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-
-    
+    bottom: -100;
 }
 #t{
     font-size: 40px;
@@ -29,4 +26,24 @@ select{
     width: 130px;
     height: 50px;
     font-size: 25px;
+}
+
+.selectbox{
+    margin: 1px;
+}
+
+img{
+    width: 30%;
+}
+
+.selectbox{
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.size{
+    width: 50px;
+    height: 50px;
 }
