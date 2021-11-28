@@ -18,4 +18,10 @@ public class PiyoPiyoContraller {
 		model.addAttribute("name",name);
 		return "PiyoPiyo";
 	}
+
+	@GetMapping("/result")
+	public String result(@RequestParam(value = "name", defaultValue = "World") String name,Model model) {
+		model.addAttribute("name",name);
+		return "result";
+	}
 }
